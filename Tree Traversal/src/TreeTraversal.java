@@ -1,6 +1,6 @@
 public class TreeTraversal {
     public static void main(String[] args) throws Exception {
-        //Alphabet Tree
+        // Simplified  way to add data: BTree
         Node<Integer> root = new Node<Integer>(1);
         Node<Integer> node2 = new Node<Integer>(2);
         Node<Integer> node3 = new Node<Integer>(3);
@@ -10,16 +10,16 @@ public class TreeTraversal {
         Node<Integer> node7 = new Node<Integer>(7);
         Node<Integer> node8 = new Node<Integer>(8);
         
-        root.setLeft(node2);
-        root.setRight(node3);
+        root.left = node2;
+        root.right = node3;
 
-        node2.setLeft(node4);
-        node2.setRight(node5);
+        node2.left = node4;
+        node2.right = node5;
 
-        node3.setLeft(node6);
-        node3.setRight(node7);
+        node3.left = node6;
+        node3.right = node7;
 
-        node4.setLeft(node8);
+        node4.left = node8;
 
         System.out.print("Pre-Order: ");
         preOrder(root);
@@ -41,11 +41,11 @@ public class TreeTraversal {
         if( node == null ) return;
 
         // Print Root
-        System.out.print(node.getData() + " ");
+        System.out.print(node.data + " ");
 
         // Recursive Case
-        preOrder(node.getLeft()); // Left
-        preOrder(node.getRight()); // Right
+        preOrder(node.left); // Left
+        preOrder(node.right); // Right
     }
 
     // (Left, Right, Root)
@@ -54,11 +54,11 @@ public class TreeTraversal {
         if( node == null ) return;
 
         //Recursive case
-        postOrder(node.getLeft()); // Left
-        postOrder(node.getRight()); // Right
+        postOrder(node.left); // Left
+        postOrder(node.right); // Right
 
         // print root
-        System.out.print(node.getData() + " ");
+        System.out.print(node.data + " ");
     }
 
     // (Left, Root, Right)
@@ -67,8 +67,8 @@ public class TreeTraversal {
         if( node == null ) return;
 
         //Recursive case and print
-        inOrder(node.getLeft()); // Left
-        System.out.print(node.getData() + " "); // print root
-        inOrder(node.getRight()); // Right
+        inOrder(node.left); // Left
+        System.out.print(node.data + " "); // print root
+        inOrder(node.right); // Right
     }
 }
