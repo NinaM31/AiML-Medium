@@ -16,4 +16,23 @@ I believe AiML Oracle course is one of the best self learning courses for those 
 * Tree Traversal
 * Yes/No Game
 
+## Part 3 of the summary: [Entropy and ID3](#)
+### Part 3 table of content: 
+* Decision Tree Algorithms
+* Entropy 
+* ID3 Worked Example
+
+## 🌱 Things You'll Learn:
+※ What is Artificial Intelligence & what is Machine learning.  
+※ Difference between Supervised & Unsupervised learning.  
+※ Difference between Data & Information.  
+※ Difference between Classification & Regression.  
+※ What is a binary tree & how to use recursion to traverse it.  
+※ Pre-order, Post-order & in-order traversal algorithms.  
+※ Java Code for using tree traversal algorithms.  
+※ What is a decision tree algorithm.  
+※ The 6 most popular decision tree algorithms.  
+※ Entropy & information Gain.  
+※ Solve a problem with ID3 algorithm.
+
 ### 🚀 course project: [Guessing users movie](https://github.com/NinaM31/Guess-My-movie)
