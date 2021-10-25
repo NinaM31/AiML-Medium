@@ -16,7 +16,7 @@ I believe AiML Oracle course is one of the best self learning courses for those 
 * Tree Traversal
 * Yes/No Game
 
-## Part 3 of the summary: [Entropy and ID3](#)
+## Part 3 of the summary: [Entropy and ID3](https://ninamaamary.medium.com/artificial-intelligence-with-machine-learning-in-java-entropy-and-id3-algorithm-5109a6048916)
 ### Part 3 table of content: 
 * Decision Tree Algorithms
 * Entropy 
